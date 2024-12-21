@@ -1,0 +1,15 @@
+{
+    "appId":"com.a.mattsson.node-network",
+    "files": ["dist-ui", "dist-electron"],
+    "icon": "./electron-icon.png",
+    "mac":{
+        "target": "dmg"
+    },
+    "linux":{
+        "target":"AppImage",
+        "category":"Utility"
+    },
+    "win":{
+        "target": "msi"
+    }
+}
